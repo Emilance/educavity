@@ -1,0 +1,77 @@
+@import "./variables" ;
+
+
+
+.ourCourses{
+    padding: 3rem 11rem;
+    background-color: #F5F5F5;
+    @media only screen and (max-width: $bp-1350) {
+        padding: 3rem 7rem;
+    }
+    @media only screen and (max-width: $bp-large) {
+        padding: 3rem 2rem;
+    };
+    @media only screen and (max-width: $bp-500) {
+        padding: 3rem 1rem;
+
+    };
+    p{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 2rem;
+        @media only screen and (max-width: $bp-medium) {
+            width: 80%;   
+          }
+          @media only screen and (max-width: $bp-500) {
+            width: 100%;
+  
+        };
+    }
+    .courseCardCon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        gap: 3rem;
+        @media only screen and (max-width: $bp-medium) {
+           flex-wrap: wrap;     
+           
+         }
+        .courseCard{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           width: 15.53169rem;
+            height: 14.3125rem;
+            border-radius: 1.06019rem;
+            border: 0.848px solid #C1C1C1;
+            background: linear-gradient(250deg, #F4F2F2 13.35%, rgba(230, 230, 230, 0.00) 89.65%);
+            @media only screen and (max-width: $bp-1350) {
+                width: 13.53169rem;
+                height: 12.3125rem;           
+             }
+             @media only screen and (max-width: $bp-500) {
+                width: 95%
+            };
+            .courseIcon{
+                width: 4.8125rem;
+                height: 4.8125rem;
+                flex-shrink: 0;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #ECE8E8;
+              
+            }
+            p {
+                margin: 0;
+                margin-top:1rem;
+            }
+        }
+
+    }
+}

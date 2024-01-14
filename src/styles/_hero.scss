@@ -1,0 +1,131 @@
+@import "./variables" ;
+
+
+
+.hero {
+    display: flex;
+    padding: 4rem 7rem 4rem 9rem;
+    gap: 1rem;
+    position: relative;
+    align-items: center;
+    @media only screen and (max-width: $bp-1350) {
+        padding: 4rem 2rem 4rem 4rem;
+    }
+    @media only screen and (max-width: $bp-large) {
+        padding: 4rem 1rem 4rem 2rem;
+    };
+    @media only screen and (max-width: $bp-medium) {
+       flex-direction: column;        
+     }
+     @media only screen and (max-width: $bp-500) {
+        padding: 2rem 1rem 5rem 1rem;
+    };
+    .starIconCon1{
+        position: absolute;
+        top:2.69rem;
+        left:2.8rem;
+        @media only screen and (max-width: $bp-500) {
+            top: 1rem;
+            left: 1rem;
+        };
+    }
+    .starIconCon2{
+        position: absolute;
+        top:20rem;
+        right:2rem;
+    }
+    .rightHero{
+        flex: 1;
+        text-align: start;  
+        @media only screen and (max-width: $bp-500) {
+            margin-bottom: 2rem;
+        };      
+        h1{
+            font-size: 3rem;
+            font-weight: 800;
+            @media only screen and (max-width: $bp-500) {
+                font-size: 2rem;
+            };
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+
+    .leftHero {
+        flex: 1;
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        @media only screen and (max-width: $bp-medium) {
+           width: 100%;
+        }
+        .dawnIconCon{
+            position: absolute;
+            bottom: -3rem;
+            left:35%;
+        }
+        
+        .topImgCon{
+            display: flex;
+            width: 70%;
+            justify-content: space-between;
+            margin-bottom: -2rem;
+            @media only screen and (max-width: $bp-largest) {
+                width: 75%;
+             }
+             @media only screen and (max-width: $bp-500) {
+                width: 100%;
+                margin-bottom: 0;
+            };
+         
+        }
+        .bottomImgCon{
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            margin-top: -3rem;
+            @media only screen and (max-width: $bp-largest) {
+            width: 85%;
+            }
+            @media only screen and (max-width: $bp-500) {
+                width: 100%;
+                margin-top: 0;
+            };
+        }
+        .middleImgCon{
+            border-radius: 50%;
+            width: 16.5625rem;
+            height: 16.5625rem;
+            flex-shrink: 0;
+
+        }
+    }
+}
+
+
+
+.ourPartner {
+    width: 75%;
+    color: $colorPrimary;
+    margin: auto;
+    margin-bottom: 3rem;
+    h2{
+        
+        text-transform: uppercase;
+    }
+    .iconsContainer {
+        display: flex;
+        justify-content: space-between;
+        @media only screen and (max-width: $bp-medium) {
+            flex-wrap: wrap;     
+            gap: 1rem;    
+          }
+    }
+    @media only screen and (max-width: $bp-500) {
+          width: 85%;
+       
+      };
+}

@@ -1,0 +1,61 @@
+@import  "./variables";
+
+
+
+.ourTeam {
+    padding: 3rem 11rem;
+    @media only screen and (max-width: $bp-1350) {
+        padding: 3rem 7rem;
+    }
+    @media only screen and (max-width: $bp-large) {
+        padding: 3rem 2rem;
+    };
+    p{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 2rem;
+        @media only screen and (max-width: $bp-medium) {
+            width: 80%;   
+          }
+    }
+
+    .teamCardCon {
+         display: flex;
+         justify-content: center;
+         gap: 2.5rem;
+         @media only screen and (max-width: $bp-largest) {
+            gap: 1rem;
+
+           }
+         @media only screen and (max-width: $bp-large) {
+         flex-wrap: wrap;
+         gap: 2.5rem;
+
+        }
+
+
+        .teamCard{
+            width: 17.6875rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+             
+           h2 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin:0.5rem 0;
+
+           } 
+
+            p{
+                width: 100%;
+            }
+        }
+    }
+
+
+
+}

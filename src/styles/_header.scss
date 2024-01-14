@@ -1,0 +1,50 @@
+@import "./variables";
+
+
+.header {
+    background: $colorWhite;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    margin: 0;
+    padding:1.25rem 9rem;
+    @media only screen and (max-width: $bp-1350) {
+        padding: 1.25rem 4rem;
+    }
+    @media only screen and (max-width: $bp-large) {
+        padding: 1.25rem 2rem;
+    }; 
+    @media only screen and (max-width: $bp-500) {
+        padding: 1.25rem 1rem;
+
+    };
+    
+    .brand {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+    justify-content: space-between;
+    .navbar{
+        display: flex;
+        align-items: center;
+        a{
+            text-decoration: none;
+            color:$colorSecondary;
+            margin-left: 1.25rem;
+            @media only screen and (max-width: $bp-500) {
+                display: none;
+    
+            };
+        }
+        button{
+            margin: auto 1rem;
+            @media only screen and (max-width: $bp-500) {
+                margin: 0;
+             };
+
+        }
+        @media only screen and (max-width: $bp-500) {
+        };
+       
+    }
+}

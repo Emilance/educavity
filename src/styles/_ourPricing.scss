@@ -1,0 +1,87 @@
+@import  "./variables";
+
+
+
+.ourPricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 11rem;
+    @media only screen and (max-width: $bp-1350) {
+        padding: 3rem 7rem;
+    }
+    @media only screen and (max-width: $bp-large) {
+        padding: 3rem 2rem;
+    };
+    p{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 2rem;
+        @media only screen and (max-width: $bp-medium) {
+            width: 80%;   
+          }
+    }
+    button {
+        margin: 1.25rem auto;
+    }
+    .pricingCardCon {
+         display: flex;
+         justify-content: center;
+         gap: 3.7rem;
+         @media only screen and (max-width: $bp-1350) {
+         flex-wrap: wrap;
+        }
+
+
+        .pricingCard{
+            width: 16rem;
+            // height: 20rem;
+            padding: 2.56rem 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1.06019rem;
+            border: 0.848px solid #C1C1C1;
+            background: linear-gradient(250deg, #F4F2F2 13.35%, rgba(230, 230, 230, 0.00) 89.65%);
+            @media only screen and (max-width: $bp-1350) {
+                padding: 1.8rem 2rem;
+            }
+
+
+           h2 {
+            font-size: 3.375rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+            margin: 0;
+
+           } 
+
+            p{
+                width: 60%;
+                    font-weight: 400;
+                    color: $colorSecondary;
+            }
+            .package {
+                height: 70%;
+                margin-top: 1.92rem;
+                p{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1.25rem;
+                    text-align: left;
+                    span{
+                        margin-left: 0.62rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}

@@ -1,0 +1,77 @@
+@import "./variables" ;
+
+
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    @media only screen and (max-width: $bp-large) {
+    flex-direction: column;
+    align-items: center;
+    };
+
+    .leftAbout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+
+            @media only screen and (max-width: $bp-500) {
+              margin-bottom: 2rem;
+                width: 85vw;
+    
+            };
+        }
+    }
+
+
+    .rightAbout {
+        position: relative;
+        width: 31.3125rem;
+        border-radius: 1.875rem;
+        background: #F5F5F5;
+        padding:5.8rem  6.5rem 5rem 13rem;
+        margin-left: -10rem;
+        z-index: -2;
+        @media only screen and (max-width: $bp-1350) {
+            padding:5rem  4rem 5rem 13rem;
+
+        };
+        @media only screen and (max-width: $bp-largest) {
+            padding:5rem  3rem 5rem 6rem;
+            margin-left: -5rem;
+
+        };
+        @media only screen and (max-width: $bp-large) {
+            margin-left: 0;
+            padding:2rem;
+
+            };
+            @media only screen and (max-width: $bp-1350) {
+                padding:1rem;
+                width: 80vw;
+                margin: 0;
+    
+            };
+        .starIconCon3{
+            position: absolute;
+            top:1rem;
+            left: 8.25rem;
+        }
+        h2{
+            text-align: left;
+        }
+        p{
+            width: 31.3125rem;
+            @media only screen and (max-width: $bp-1350) {
+              
+                width: 100%;
+    
+            };
+        }
+
+    }
+}
