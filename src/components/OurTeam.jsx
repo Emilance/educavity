@@ -18,7 +18,7 @@ const OurTeam = () => {
                  <div className="teamImg">
                    <img src={team1}  alt="Seth Team Members"/>
                 </div>
-                <h2>Tolu Coker</h2>
+                <h2>Mayor Joy</h2>
                 <p>Founder</p>
              </div>
 
@@ -26,7 +26,7 @@ const OurTeam = () => {
                  <div className="teamImg">
                    <img src={team2}  alt="Seth Team Members"/>
                 </div>
-                <h2>May Assam</h2>
+                <h2>Putin Cole</h2>
                 <p>Founder</p>
              </div>
 
@@ -34,7 +34,7 @@ const OurTeam = () => {
                  <div className="teamImg">
                    <img src={team3}  alt="Seth Team Members"/>
                 </div>
-                <h2>George Wells</h2>
+                <h2>GIdris Wells</h2>
                 <p>Photographer</p>
              </div>
 
@@ -43,7 +43,7 @@ const OurTeam = () => {
                  <div className="teamImg">
                    <img src={team4}  alt="Seth Team Members"/>
                 </div>
-                <h2>Fannie Schoen</h2>
+                <h2>Bet Mytan</h2>
                 <p>Creative Manager</p>
              </div>
           
