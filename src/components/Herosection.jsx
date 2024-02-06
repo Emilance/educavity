@@ -30,7 +30,9 @@ const HeroSetion = ()=> {
                 skills, cultivating a supportive network,
                 and expanding employment avenues.
             </p>
-            <button className="btn" >Learn More</button>
+            <button className="btn" >
+                <a href="#about">Learn More</a>
+            </button>
         </div>
         <div className="leftHero">
             <div className="topImgCon">

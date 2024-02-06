@@ -8,7 +8,7 @@ import team4 from "../assets/team/Frame 66.png"
 const OurTeam = () => {
 
     return (
-        <div className="ourTeam">
+        <div id="team" className="ourTeam">
             <h2>OUR TEAM</h2>
           <p>{"Let's meet our team members who are professional and have rich experiences."}</p>
       

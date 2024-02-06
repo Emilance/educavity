@@ -8,7 +8,7 @@ import image3 from "../assets/services/Frame 62.png"
 const OurService = () => {
 
     return (
-        <div className="ourServices">
+        <div  id="services" className="ourServices">
             <h2>OUR SERVICE</h2>
           <p>{'We provide a one-stop service for you.We understand the nuances of operating in your region and we’ll ensure the nature of our services fit your box perfectly.'}</p>
       

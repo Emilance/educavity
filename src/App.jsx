@@ -10,6 +10,7 @@ import AboutUs from './components/About'
 import OurTeam from './components/OurTeam'
 import OurPricing from './components/OurPricing'
 import Review from './components/Review'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
        <OurTeam/>
        <OurPricing/>
        <Review/>
+       <Footer/>
     </div>
   )
 }

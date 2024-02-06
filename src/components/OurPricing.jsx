@@ -6,7 +6,7 @@ import "../styles/_ourPricing.scss"
 const OurPricing = () => {
 
     return (
-        <div className="ourPricing">
+        <div id="pricing" className="ourPricing">
             <h2>OUR PRICING</h2>
           <p>{"These prices are based on tuiton fees per student."}</p>
       

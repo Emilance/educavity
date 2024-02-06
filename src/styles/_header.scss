@@ -21,6 +21,9 @@
     .brand {
         h1 {
             font-size: 1.5rem;
+            span{
+                color: $colorFaded;
+            }
         }
     }
     justify-content: space-between;

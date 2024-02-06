@@ -1,4 +1,6 @@
 @import "./variables";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300;1,400&display=swap');
+
 
 .mb-1 {
   margin-bottom: 1rem;
@@ -34,13 +36,39 @@
   position: relative;
 }
 
+
 .btn {
-    background-color: $colorPrimary;
+  font-family: 'Lato', sans-serif;
+  background-color: $colorPrimary;
+  color: $colorWhite;
+  padding:1rem 2.5rem ;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  transition: 0.5s;
+  a{
     color: $colorWhite;
-    padding:1.25rem 2.5rem ;
-    border-radius: 2.5rem;
-    cursor: pointer;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+    @media only screen and (max-width: $bp-smallest) {
+     font-size: 1rem;
+  
+  };
+}
+@media only screen and (max-width: $bp-medium) {
+  padding: 0.88013rem 1.84019rem 0.89069rem 2.15981rem;
+ 
+}
+  @media only screen and (max-width: $bp-small) {
+    padding:1rem;
+
+};
+@media only screen and (max-width: $bp-smallest) {
+  padding:0.8rem;
+
+};
 }
